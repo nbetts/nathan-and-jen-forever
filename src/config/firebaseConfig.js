@@ -4,13 +4,13 @@ import 'firebase/auth'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC9ANxCA6YdBzQf_QjZK3lnPpVyxC6I7fU",
-  authDomain: "nathan-and-dans-list.firebaseapp.com",
-  databaseURL: "https://nathan-and-dans-list.firebaseio.com",
-  projectId: "nathan-and-dans-list",
-  storageBucket: "nathan-and-dans-list.appspot.com",
-  messagingSenderId: "541281162117",
-  appId: "1:541281162117:web:1b8f724bde8318aa322aec"
+  apiKey: "AIzaSyDANh0W7dOJuOtewuQK_Fj6C8Hfl1vdmfE",
+  authDomain: "nathan-and-jen-forever.firebaseapp.com",
+  databaseURL: "https://nathan-and-jen-forever.firebaseio.com",
+  projectId: "nathan-and-jen-forever",
+  storageBucket: "nathan-and-jen-forever.appspot.com",
+  messagingSenderId: "564350688088",
+  appId: "1:564350688088:web:68e50ed64a159c6f80a32d"
 };
 
 // Initialize Firebase

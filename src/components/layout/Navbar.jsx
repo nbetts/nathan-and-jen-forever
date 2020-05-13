@@ -7,8 +7,8 @@ const Navbar = (props) => {
   const { auth } = props;
   
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark navbar-padding">
-      <Link to="/" className="navbar-brand">Nathan and Dan's Lists</Link>
+    <nav className="navbar navbar-expand-lg navbar-dark navbar-padding">
+      <Link to="/" className="navbar-brand">Nathan and Jen Forever &nbsp;<span role="img" aria-label="hearts">💕</span></Link>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>

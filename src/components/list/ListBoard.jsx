@@ -40,11 +40,11 @@ class ListBoard extends Component {
       <div className="container my-5">
         <div className="card col-md-4 ml-auto mr-auto mb-4">
           <div className="card-body">
-            <h2 className="card-title">Create a List</h2>
+            <h2 className="card-title">Create a List &nbsp;<span role="img" aria-label="hearts">💕</span></h2>
             <input type="text" className="text-dark form-control py-4 px-0 border-0 text-truncate mb-1 list-title" placeholder="Title" value={newListTitle} onChange={(e) => this.setState({ newListTitle: e.target.value })} />
             <input type="text" className="text-dark form-control py-4 px-0 border-0 text-truncate" placeholder="Description" value={newListDescription} onChange={(e) => this.setState({ newListDescription: e.target.value })} />
 
-            <button className="btn btn-outline-primary mt-3 mb-1" type="button" onClick={this.createList}>Create</button>
+            <button className="btn btn-outline-pink mt-3 mb-1" type="button" onClick={this.createList}>Create</button>
           </div>
         </div>
         <div className="my-5"></div>

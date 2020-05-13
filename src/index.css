@@ -17,9 +17,8 @@ html, body {
 }
 
 body {
-  background: #DCE35B;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  background: rgb(203,34,251);
+  background: linear-gradient(342deg, rgba(203,34,251,1) 0%, rgba(253,29,212,1) 50%, rgba(255,26,86,1) 100%);
 }
 
 #root {
@@ -38,4 +37,32 @@ body {
 
 .list-title {
   font-size: 1.5rem;
+}
+
+.text-pink {
+  color: #fb5cef;
+}
+
+.bg-pink {
+  background-color: #fb5cef;
+}
+
+.btn-outline-pink {
+  color: #fb5cef;
+  border-color: #fb5cef;
+}
+
+.btn-outline-pink:hover {
+  color: #fff;
+  background-color: #fb5cef;
+  border-color: #fb5cef;
+}
+
+.btn-outline-pink:focus {
+  box-shadow: 0 0 0 0.2rem rgba(225, 76, 243, 0.5);
+}
+
+.form-control:focus {
+  border-color: #f869ec;
+  box-shadow: 0 0 0 0.2rem rgba(225, 76, 243, 0.5);
 }

@@ -33,9 +33,9 @@ class Form extends Component {
         ))}
         <div className="text-center">
           <div className="text-danger">
-              { formError ? <p className="mt-4 mb-1">{ formError }</p> : null }
+              { formError ? <p className="mt-4 mb-1 text-pink">{ formError }</p> : null }
             </div>
-          <button type="submit" className="btn btn-primary mt-3">{ title }</button>
+          <button type="submit" className="btn btn-outline-pink mt-3">{ title }</button>
         </div>
       </form>
     )
