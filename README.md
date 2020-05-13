@@ -1,5 +1,7 @@
-Website: https://nathan-and-jen-forever.web.app/
----
+## Website: https://nathan-and-jen-forever.web.app/
+
+![screenshot](assets/screenshot.png)
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
