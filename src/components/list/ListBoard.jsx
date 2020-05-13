@@ -47,7 +47,7 @@ class ListBoard extends Component {
               <input type="text" className="text-dark form-control py-4 px-0 border-0 text-truncate mb-1 list-title" placeholder="Title" value={newListTitle} onChange={(e) => this.setState({ newListTitle: e.target.value })} />
               <input type="text" className="text-dark form-control py-4 px-0 border-0 text-truncate" placeholder="Description" value={newListDescription} onChange={(e) => this.setState({ newListDescription: e.target.value })} />
 
-              <button className="btn btn-outline-pink mt-3 mb-1" type="button" onClick={this.createList}>Create</button>
+              <button className={`btn btn-outline-pink mt-3 mb-1 ${newListTitle === '' ? 'd-none' : ''}`} type="button" onClick={this.createList}>Create</button>
             </div>
           </div>
           { lists && lists.map(list => (
