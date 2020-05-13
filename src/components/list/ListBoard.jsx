@@ -41,7 +41,7 @@ class ListBoard extends Component {
         <div className="my-5"></div>
         <p className="text-center text-danger my-5">{updateError}</p>
         <div className="card-columns">
-          <div className="card">
+          <div className="card shadow">
             <div className="card-body">
               <h2 className="card-title">Create a List &nbsp;<span role="img" aria-label="hearts">💕</span></h2>
               <input type="text" className="text-dark form-control py-4 px-0 border-0 text-truncate mb-1 list-title" placeholder="Title" value={newListTitle} onChange={(e) => this.setState({ newListTitle: e.target.value })} />

@@ -94,7 +94,7 @@ class List extends Component {
     const { list, newItemTitle, newChanges } = this.state;
 
     return (
-      <div className="card">
+      <div className="card shadow">
         <div className="card-body">
           <input type="text" className="text-dark form-control py-4 px-0 border-0 text-truncate mb-1 list-title" placeholder="Title" value={list.title} onChange={(e) => this.updateField('title', e.target.value)} />
           <input type="text" className="text-dark form-control py-4 px-0 border-0 text-truncate mb-3" placeholder="Description" value={list.description} onChange={(e) => this.updateField('description', e.target.value)} />
